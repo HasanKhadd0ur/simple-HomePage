@@ -1,0 +1,148 @@
+.h50{
+    height: 50px;
+
+}
+.h700{
+    height: 700px;
+
+}
+main{
+    align-items: center;
+    
+}
+nav{
+    color: white;
+}
+footer{
+    
+    text-align: center;
+    align-items: flex-end;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    background-color: #232629;
+    position: static;
+    bottom: 0px;
+    height: auto;
+
+}
+.proj{
+
+    height: 60px;
+    width: 70px;
+    display: inline-block;
+    margin: 3px;
+    background-color: gray;
+}
+
+profCard{
+    
+    height: auto;
+    padding-bottom: 2px;
+    align-items: center;
+    text-align: center;
+    font-family: Sans-serif;
+    
+}
+
+card{
+    background-color: #dc3545a1;
+    height: 400px;
+    align-items: center;
+    font-family: Sans-serif;
+    
+}
+card:nth-child(even){
+    background-color: #dc354566;
+}
+.service{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    font-size: 1.5rem;
+}
+.serviceTitle{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 2px ;
+    font-size: 2rem;
+
+
+}
+
+div i{
+    width: 25px;
+    height: 25px;
+    color: white;
+    padding-bottom: 4px;
+    margin-right: 1px;
+
+}
+.footerContent{
+    height: auto;
+    margin-top: 30px;
+    text-align: left;
+    padding: 1px;;
+    align-items: center;
+
+}   
+.section:nth-child(1){
+    margin: 0px;
+
+}
+.section{
+    height: auto;
+    align-items: center;
+    
+    margin-top: 10px;
+}
+.rights{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 780px){
+    .footerContent{
+        width: 100%;
+
+    }
+    .nav{
+        display: none;
+        width: 0px;
+    }
+    .navbar-nav{
+        display: none;
+        -webkit-user-modify: 0px;
+    }
+    .col{
+        width: 100%;
+    }
+    card{
+        margin: 10px;
+    }
+    .rights{
+        font-size: 1rem;
+    }
+    .contentText{
+        width: 75%;
+        padding-bottom: 3px;
+    }
+    hr{
+        width: 100%;
+    }
+    
+
+}
+
+
+hr{
+          
+    margin-top: 8px;
+
+    color: inherit;
+    border: 0;
+    width: 75%  ;
+    border-top: var(--bs-border-width) dashed;
+    opacity: .25;
+        }
